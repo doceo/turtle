@@ -5,7 +5,7 @@
 <body>
   <h1>Turtle Graphics</h1>
 
-  <svg height="300" width="300">
+  <svg height="600" width="480">
     {{> lines}}
   </svg>
 </body>
@@ -17,5 +17,5 @@
 </template>
 
 <template name="line">
-  <line x1="{{x1}}" y1="{{y1}}" x2="{{x2}}" y2="{{y2}}" style="stroke:rgb(255,0,0); stroke-width:{{w}}" />
+  <line x1="{{x1}}" y1="{{y1}}" x2="{{x2}}" y2="{{y2}}" style="stroke:rgb({{color.r}},0,0); stroke-width:{{w}}" />
 </template>
