@@ -6,7 +6,9 @@ Template.lines.helpers({
       y2: 100,
       w: 2,
       color: {
-        r: 255
+        r:0,
+	g:100,
+	b:0,
       }
     },
     {
@@ -16,7 +18,9 @@ Template.lines.helpers({
       y2: 100,
       w: 4,
       color: {
-        r: 200
+        r:100,
+	g:0,
+	b:0,
       }
     },
     {
@@ -26,7 +30,9 @@ Template.lines.helpers({
       y2: 0,
       w: 8,
       color: {
-        r: 150,
+        r:0,
+	g:0,
+	b:100,
       }
     },
     {
@@ -36,7 +42,9 @@ Template.lines.helpers({
       y2: 0,
       w: 16,
       color: {
-        r: 100
+        r:200,
+	g:200,
+	b:200,
       }
     }
   ]
